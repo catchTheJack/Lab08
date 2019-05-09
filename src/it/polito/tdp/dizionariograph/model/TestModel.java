@@ -8,7 +8,7 @@ public class TestModel {
 		
 		Model model = new Model();
 		
-		model.createGraph(4);
+		model.createGraph(6);
 		System.out.println(String.format("**Grafo creato**\n"));
 		
 		List<String> vicini = model.displayNeighbours("casa");
